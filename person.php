@@ -1,15 +1,13 @@
 <?php
-abstract class Person{
-     public $name;
+abstract class person{
+    public $name;
     public $age;
-
-    public function __construct($name, $age){
-        $this->name = $name;
-        $this->age = $age;
-      }
-
-    abstract public function getDetails();
-
-
+    public function __construct($name,$age){
+        $this->name=$name;
+        $this->age=$age;
+    }
+    
+    abstract public function getdetails();
 
 }
+
